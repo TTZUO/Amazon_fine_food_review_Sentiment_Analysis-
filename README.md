@@ -4,55 +4,56 @@ This dataset consists of reviews of fine foods from amazon. The data span a peri
 
 Data includes:
 
-Reviews from Oct 1999 - Oct 2012
-568,454 reviews
-256,059 users
-74,258 products
-260 users with > 50 reviews
+Reviews from Oct 1999 - Oct 2012<br/>
+568,454 reviews<br/>
+256,059 users<br/>
+74,258 products<br/>
+260 users with > 50 reviews<br/>
 
-attributes describe
-1.Id
-2.ProductId - unique identifier for the product
+attributes describe: 
+<br/>
+1.Id<br/>
+2.ProductId - unique identifier for the product<br/>
 3.UserId - unqiue identifier for the user
-4.ProfileName
-5.HelpfulnessNumerator - number of users who found the review helpful
-6.HelpfulnessDenominator - number of users who indicated whether they found the review helpful or not
-7.Score - rating between 1 and 5
-8.Time - timestamp for the review
-9.Summary - brief summary of the review
-10.Text - text of the review
+4.ProfileName<br/>
+5.HelpfulnessNumerator - number of users who found the review helpful<br/>
+6.HelpfulnessDenominator - number of users who indicated whether they found the review helpful or not<br/>
+7.Score - rating between 1 and 5<br/>
+8.Time - timestamp for the review<br/>
+9.Summary - brief summary of the review<br/>
+10.Text - text of the review<br/>
 
 https://www.kaggle.com/snap/amazon-fine-food-reviews
 
 The purpose of this analysis is to make up a prediction model where we will be able to predict whether a recommendation is positive or negative. In this analysis, we will not focus on the Score, but only the positive/negative sentiment of the recommendation. 
 
-1. Data Preprocessing/Clean data:
-Remove Special characters
-Remove HTML Tags
-Removing null coloumn
 
-2. EDA:
-bar plot
-heatmap
+Data Preprocessing/Clean data:<br/>
+Remove Special characters<br/>
+Remove HTML Tags<br/>
+Removing null coloumn<br/>
 
-3. 
-Applying various Machine Learning models:
-LogisticRegression 
-RandomForest
-KNearestNeighbour
-naive bayes
+EDA:<br/>
+bar plot<br/>
+heatmap<br/>
 
-4. sentiment prediction:
-Logistic Regression model on Uni-gram/Bi-gram/n-gram bow
-Logistic Regression model on TFIDF
-Logistic Regression model on TFIDF + n-gram
+Applying various Machine Learning models:<br/>
+LogisticRegression <br/>
+RandomForest<br/>
+KNearestNeighbour<br/>
+naive bayes<br/>
 
-RandomForest model on Uni-gram/Bi-gram/n-gram bow
-RandomForest model on TFIDF
-RandomForest model on TFIDF + n-gram
+sentiment prediction:<br/>
+Logistic Regression model on Uni-gram/Bi-gram/n-gram bow<br/>
+Logistic Regression model on TFIDF<br/>
+Logistic Regression model on TFIDF + n-gram<br/>
 
-KNeighbors model on Uni-gram/Bi-gram/n-gram bow
-KNeighbors model on TFIDF
-KNeighbors model on TFIDF + n-gram
+RandomForest model on Uni-gram/Bi-gram/n-gram bow<br/>
+RandomForest model on TFIDF<br/>
+RandomForest model on TFIDF + n-gram<br/>
 
-MultinomialNB model on Uni-gram/Bi-gram/n-gram bow
+KNeighbors model on Uni-gram/Bi-gram/n-gram bow<br/>
+KNeighbors model on TFIDF<br/>
+KNeighbors model on TFIDF + n-gram<br/>
+
+MultinomialNB model on Uni-gram/Bi-gram/n-gram bow<br/>
