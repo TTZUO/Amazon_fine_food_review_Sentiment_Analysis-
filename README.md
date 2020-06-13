@@ -44,9 +44,13 @@ KNearestNeighbour<br/>
 naive bayes<br/>
 
 ## sentiment prediction:<br/>
-Logistic Regression model on Uni-gram/Bi-gram/n-gram bow<br/>
-Logistic Regression model on TFIDF<br/>
-Logistic Regression model on TFIDF + n-gram<br/>
+Logistic Regression L1 model on Uni-gram/Bi-gram/n-gram bow<br/>
+Logistic Regression L1 model on TFIDF<br/>
+Logistic Regression L1 model on TFIDF + n-gram<br/>
+
+Logistic Regression L2 model on Uni-gram/Bi-gram/n-gram bow<br/>
+Logistic Regression L2 model on TFIDF<br/>
+Logistic Regression L2 model on TFIDF + n-gram<br/>
 
 RandomForest model on Uni-gram/Bi-gram/n-gram bow<br/>
 RandomForest model on TFIDF<br/>
