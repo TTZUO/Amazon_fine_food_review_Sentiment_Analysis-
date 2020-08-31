@@ -43,7 +43,7 @@ RandomForest<br/>
 KNearestNeighbour<br/>
 naive bayes<br/>
 
-## sentiment prediction:<br/>
+## Sentiment prediction:<br/>
 Logistic Regression L1 model on Uni-gram/Bi-gram/n-gram bow<br/>
 Logistic Regression L1 model on TFIDF<br/>
 Logistic Regression L1 model on TFIDF + n-gram<br/>
@@ -61,3 +61,6 @@ KNeighbors model on TFIDF<br/>
 KNeighbors model on TFIDF + n-gram<br/>
 
 MultinomialNB model on Uni-gram/Bi-gram/n-gram bow<br/>
+
+## Conclusion:<br/>
+Achieved the highest accuracy score of 94.5%, F1 score of 94% and AUC score of 96.5% with Logistic Regression L2 on Bi-gram model based on positive/negative reviews prediction
