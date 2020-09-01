@@ -64,3 +64,6 @@ MultinomialNB model on Uni-gram/Bi-gram/n-gram bow<br/>
 
 ## Conclusion:<br/>
 Achieved the highest accuracy score of 94.5%, F1 score of 94% and AUC score of 96.5% with Logistic Regression L2 on Bi-gram model based on positive/negative reviews prediction
+
+In the updated version, I applied gridsearch to tune the parameter
+The best model in this case is Logistic Regression L2 on Bi-gram + TFIDF model, the accuracy score is 95.4%, AUC score is 98%, f1 score is 97.3%
